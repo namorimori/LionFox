@@ -114,10 +114,10 @@ def minimax(board, stone, depth, maximizing_player, alpha=-math.inf, beta=math.i
         return min_eval
 
 # FoxAI クラス
-class FoxAI:
+class LionFoxAI:
 
     def name(self):
-        return "FoxAI"
+        return "LionFoxAI"
 
     def face(self):
         return "🦊"
