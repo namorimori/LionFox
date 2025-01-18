@@ -133,7 +133,7 @@ def minimax(board, stone, depth, maximizing_player, alpha=-math.inf, beta=math.i
                 break
         return min_eval
 
-# FoxAI クラス
+# DragonAI クラス
 class DragonAI:
 
     def name(self):
